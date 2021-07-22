@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <div id="app">
-      <task-list />
+      <InboxScreen />
     </div>
   </div>
 </template>
 
 <script>
-import TaskList from './components/PureTaskList.vue';
+import InboxScreen from './components/InboxScreen.vue';
 
 export default {
   name: "App",
   components: {
-    TaskList
+    InboxScreen
   }
 };
 </script>
